@@ -55,6 +55,17 @@ public class pokemon {
     }
 
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Nombre: ").append(Nombre != null? Nombre : "???").append("\n");
+        sb.append("Tipo: ").append(Tipo != null ? Tipo : "???").append("\n");
+        sb.append("Altura: ").append(Altura > 0 ? Altura + "m" : "???").append("\n");
+        sb.append("Peso: ").append(Peso > 0 ? Peso + "kg" : "???").append("\n");
+        sb.append("Descripción: ").append(Descripcion != null ? Descripcion : "???").append("\n");
+        return sb.toString();
+        
+    }
 
 
 
