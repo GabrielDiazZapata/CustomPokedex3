@@ -1,6 +1,6 @@
 package net.salesianos.pokemones;
 
-public class pokemon {
+public class Pokemon {
     private String Nombre;
     private String Tipo;
     private double Altura;
@@ -8,7 +8,7 @@ public class pokemon {
     private String Descripcion;
 
 
-    public pokemon(String Nombre, String Tipo, double Altura, double Peso, String Descripcion){
+    public Pokemon(String Nombre, String Tipo, double Altura, double Peso, String Descripcion){
         this.Nombre = Nombre;
         this.Tipo = Tipo;
         this.Altura = Altura;
@@ -16,7 +16,7 @@ public class pokemon {
         this.Descripcion = Descripcion;
     }
 
-    public pokemon(String Nombre, String Tipo){
+    public Pokemon(String Nombre, String Tipo){
         this.Nombre = Nombre;
         this.Tipo = Tipo;
     }
