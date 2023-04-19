@@ -14,4 +14,18 @@ public class PokemonLegendario extends Pokemon {
         this.localizacion = localizacion;
     
     }
+
+    public String getLocalizacion() {
+        return localizacion;
+    }
+
+    public void setLocalizacion(String localizacion) {
+        this.localizacion = localizacion;
+    }
+
+    @Override
+    public String toString() {
+        String info = super.toString();
+        return info + "\nUbicación: " + (localizacion != null ? localizacion : "??");
+    }
 }
